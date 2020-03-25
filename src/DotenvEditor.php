@@ -6,9 +6,9 @@
  * Time: 07:19
  */
 
-namespace Brotzka\DotenvEditor;
+namespace Neftaio\DotenvEditor;
 
-use Brotzka\DotenvEditor\Exceptions\DotEnvException;
+use Neftaio\DotenvEditor\Exceptions\DotEnvException;
 use Dotenv\Exception\InvalidPathException;
 
 class DotenvEditor
@@ -30,7 +30,7 @@ class DotenvEditor
      */
     public function __construct()
     {
-        $backupPath      = str_finish(config('dotenveditor.backupPath'), '/');
+        $backupPath      = Str::finish(config('dotenveditor.backupPath'), '/');
         $env             = config('dotenveditor.pathToEnv');
         $filePermissions = config('dotenveditor.filePermissions');
 
@@ -226,7 +226,6 @@ class DotenvEditor
         } else {
             throw new DotEnvException(trans('dotenv-editor::class.requested_backup_not_found'), 0);
         }
-
     }
 
     /**
@@ -436,13 +435,11 @@ class DotenvEditor
             $env = $this->getContent();
 
             foreach ($data as $dataKey => $dataValue) {
-
                 foreach (array_keys($env) as $envKey) {
                     if ($dataKey === $envKey) {
                         $env[$envKey] = $dataValue;
                     }
                 }
-
             }
             return $this->save($env);
         }
@@ -521,8 +518,8 @@ class DotenvEditor
      */
     public function setStartAndEndWith($value, $string = '')
     {
-        $value = str_start($value, '"');
-        $value = str_finish($value, '"');
+        $value = Str::start($value, '"');
+        $value = Str::finish($value, '"');
         return $value;
     }
 

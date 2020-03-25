@@ -6,7 +6,7 @@
  * Time: 07:22
  */
 
-namespace Brotzka\DotenvEditor;
+namespace Neftaio\DotenvEditor;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -46,7 +46,7 @@ class DotenvEditorServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'brotzka-dotenveditor',
+            'neftaio-dotenveditor',
             function () {
                 return new DotenvEditor();
             }

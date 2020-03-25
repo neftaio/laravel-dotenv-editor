@@ -6,7 +6,7 @@
  * Time: 07:20
  */
 
-namespace Brotzka\DotenvEditor;
+namespace Neftaio\DotenvEditor;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -14,6 +14,6 @@ class DotenvEditorFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'brotzka-dotenveditor';
+        return 'neftaio-dotenveditor';
     }
 }
