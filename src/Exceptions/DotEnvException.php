@@ -6,7 +6,7 @@
  * Date: 28.07.16
  * Time: 06:08
  */
-namespace Brotzka\DotenvEditor\Exceptions;
+namespace Neftaio\DotenvEditor\Exceptions;
 
 use Exception;
 

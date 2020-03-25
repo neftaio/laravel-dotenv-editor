@@ -6,10 +6,10 @@
  * Time: 06:17
  */
 
-namespace Brotzka\DotenvEditor\Http\Controllers;
+namespace Neftaio\DotenvEditor\Http\Controllers;
 
-use Brotzka\DotenvEditor\DotenvEditor as Env;
-use Brotzka\DotenvEditor\Exceptions\DotEnvException;
+use Neftaio\DotenvEditor\DotenvEditor as Env;
+use Neftaio\DotenvEditor\Exceptions\DotEnvException;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 
