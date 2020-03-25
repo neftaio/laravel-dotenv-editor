@@ -1,8 +1,8 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/26c13ba0918c42858ec6f94607238baa)](https://www.codacy.com/app/fabianhagen87/laravel-dotenv-editor?utm_source=github.com&utm_medium=referral&utm_content=Brotzka/laravel-dotenv-editor&utm_campaign=badger)
-[![Latest Stable Version](https://poser.pugx.org/brotzka/laravel-dotenv-editor/v/stable)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
-[![Total Downloads](https://poser.pugx.org/brotzka/laravel-dotenv-editor/downloads)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
-[![Latest Unstable Version](https://poser.pugx.org/brotzka/laravel-dotenv-editor/v/unstable)](https://packagist.org/packages/brotzka/laravel-dotenv-editor) 
-[![License](https://poser.pugx.org/brotzka/laravel-dotenv-editor/license)](https://packagist.org/packages/brotzka/laravel-dotenv-editor)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/26c13ba0918c42858ec6f94607238baa)](https://www.codacy.com/app/fabianhagen87/laravel-dotenv-editor?utm_source=github.com&utm_medium=referral&utm_content=Neftaio/laravel-dotenv-editor&utm_campaign=badger)
+[![Latest Stable Version](https://poser.pugx.org/neftaio/laravel-dotenv-editor/v/stable)](https://packagist.org/packages/neftaio/laravel-dotenv-editor) 
+[![Total Downloads](https://poser.pugx.org/neftaio/laravel-dotenv-editor/downloads)](https://packagist.org/packages/neftaio/laravel-dotenv-editor) 
+[![Latest Unstable Version](https://poser.pugx.org/neftaio/laravel-dotenv-editor/v/unstable)](https://packagist.org/packages/neftaio/laravel-dotenv-editor) 
+[![License](https://poser.pugx.org/neftaio/laravel-dotenv-editor/license)](https://packagist.org/packages/neftaio/laravel-dotenv-editor)
 
 # Edit your Laravel .env file
 
@@ -28,19 +28,19 @@ List of available functions:
 
 Here are some images showing the gui which ships with the current version:
 
-![Overview](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_01.png)
-![Overview with loaded content](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_02.png)
-![Edit an entry](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_08.png)
-![Adding a new key-value-pair](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_03.png)
-![Backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_04.png)
-![Showing the content of a backup](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_06.png)
-![More options for backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_07.png)
-![Uploading Backups](https://github.com/Brotzka/laravel-dotenv-editor/blob/master/images/screenshot_05.png)
+![Overview](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_01.png)
+![Overview with loaded content](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_02.png)
+![Edit an entry](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_08.png)
+![Adding a new key-value-pair](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_03.png)
+![Backups](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_04.png)
+![Showing the content of a backup](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_06.png)
+![More options for backups](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_07.png)
+![Uploading Backups](https://github.com/Neftaio/laravel-dotenv-editor/blob/master/images/screenshot_05.png)
 
 
 # Installation
 
-Visit the [Wiki-page](https://github.com/Brotzka/laravel-dotenv-editor/wiki/Installation) to get more Information.
+Visit the [Wiki-page](https://github.com/Neftaio/laravel-dotenv-editor/wiki/Installation) to get more Information.
 
 
 ## Examples
@@ -50,7 +50,7 @@ Make sure, the entries you want to change, really exist in your .env.
 
     namespace App\Http\Controllers;
 
-    use Brotzka\DotenvEditor\DotenvEditor;
+    use Neftaio\DotenvEditor\DotenvEditor;
 
     class EnvController extends Controller
     {

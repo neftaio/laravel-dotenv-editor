@@ -1,31 +1,29 @@
 {
-    "name": "brotzka/laravel-dotenv-editor",
-    "description": "A package for editing the .env file in your Laravel root.",
+    "name": "neftaio/laravel-dotenv-editor",
+    "description": "A fork package for editing the .env file in your Laravel root, created initially for Fabian Hagen <fabianhagen87@gmail.com>.",
     "keywords": ["laravel", "dotenv", "dotenv-editor"],
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabian Hagen",
-            "email": "fabianhagen87@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Neftali Forero",
+        "email": "neftaio@gmail.com"
+    }],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
-            "Brotzka\\DotenvEditor\\": "src/"
+            "Neftaio\\DotenvEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Brotzka\\DotenvEditor\\DotenvEditorServiceProvider"
+                "Neftaio\\DotenvEditor\\DotenvEditorServiceProvider"
             ],
             "aliases": {
-                "DotenvEditor": "Brotzka\\DotenvEditor\\DotenvEditorFacade"
+                "DotenvEditor": "Neftaio\\DotenvEditor\\DotenvEditorFacade"
             }
         }
     }
