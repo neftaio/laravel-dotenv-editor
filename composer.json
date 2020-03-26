@@ -1,6 +1,6 @@
 {
     "name": "neftaio/laravel-dotenv-editor",
-    "description": "A fork package for editing the .env file in your Laravel root, created initially for Fabian Hagen <fabianhagen87@gmail.com>.",
+    "description": "A fork package for editing the .env file in your Laravel root, created initially by Fabian Hagen <fabianhagen87@gmail.com>.",
     "keywords": ["laravel", "dotenv", "dotenv-editor"],
     "type": "library",
     "license": "MIT",

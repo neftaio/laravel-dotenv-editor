@@ -10,6 +10,7 @@ namespace Neftaio\DotenvEditor;
 
 use Neftaio\DotenvEditor\Exceptions\DotEnvException;
 use Dotenv\Exception\InvalidPathException;
+use Illuminate\Support\Str;
 
 class DotenvEditor
 {
