@@ -25,7 +25,7 @@ return [
     */
     'overview_title'                => 'Su archivo .env actual',
     'overview_text'                 => 'Aquí puede ver el contenido de su actual .env activo. Haga clic en <strong> cargar </strong> para mostrar el contenido.',
-    'overview_button'               => 'Carga',
+    'overview_button'               => 'Cargar',
     'overview_table_key'            => 'Clave',
     'overview_table_value'          => 'Valor',
     'overview_table_options'        => 'Opciones',
